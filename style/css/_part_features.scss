@@ -101,8 +101,15 @@
 
 
 				.features__text {
-					float: left;
-					width: 65%;
+					// float: left;
+          width: 65%;
+          height:100%;
+          display:flex;
+          justify-content: center;
+          align-items: center;
+          &:hover .features__title{
+            border-bottom: 2px solid rgba(255,255,255,0.8);
+          }
 				}
 
 					.features__title {

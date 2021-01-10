@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start":"cd .\\style\\css && sass --watch global.scss global.css"
+  },
   "devDependencies": {
     "browser-sync": "^2.9.11",
     "gulp": "^3.9.0",

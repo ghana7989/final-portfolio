@@ -960,7 +960,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   background-image: url("../img/exp/exp_sass.svg");
 }
 .experience__icon--jquery {
-  background-image: url("../img/exp/exp_jquery.svg");
+  background-image: url("../img/exp/exp_typescript.svg");
 }
 .experience__icon--wordpress {
   background-image: url("../img/exp/exp_wordpress.svg");
@@ -972,16 +972,21 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   background-image: url("../img/exp/exp_react.svg");
 }
 .experience__icon--illustrator {
-  background-image: url("../img/exp/exp_illustrator.svg");
+  background-image: url("../img/exp/exp_node.svg");
 }
 .experience__icon--fireworks {
-  background-image: url("../img/exp/exp_fireworks.svg");
+  background-image: url("../img/exp/exp_next.svg");
 }
 .experience__icon--bootstrap {
-  background-image: url("../img/exp/exp_bootstrap.svg");
+  background-image: url("../img/exp/exp_mongodb.svg");
+  padding: 0;
+  border: 2px solid white;
 }
 .experience__icon--foundation {
-  background-image: url("../img/exp/exp_foundation-glasses.svg");
+  background-image: url("../img/exp/exp_firebase.svg");
+}
+.experience__icon--python {
+  background-image: url("../img/exp/exp_python.svg");
 }
 
 .experience__icon-description {
@@ -1098,8 +1103,14 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 }
 
 .features__text {
-  float: left;
   width: 65%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.features__text:hover .features__title {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.8);
 }
 
 .features__title {
