@@ -624,6 +624,12 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   padding-left: 40px;
 }
 
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .header__title-wrapper {
   float: left;
   margin-top: 11px;
@@ -633,7 +639,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 }
 
 .header__title-main {
-  font-size: 22px;
+  font-size: 26px;
   font-weight: 600;
   color: rgba(255, 255, 255, 0.9);
   text-shadow: 0 0 20px black;
@@ -770,17 +776,20 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 
 .hero__photo {
   position: relative;
-  width: 280px;
-  height: 280px;
+  width: 400px;
+  height: 400px;
   border-radius: 150px;
   background-image: url("../img/hero_photo.jpg");
   background-size: cover;
+}
+.hero__photo:hover .hero__hat {
+  transform: scale(1.1) translateZ(3deg);
 }
 
 .hero__hat {
   position: absolute;
   top: -60px;
-  left: 50px;
+  left: 90px;
   width: 140px;
   height: 110px;
   background-image: url("../img/hero_hat.png");
@@ -790,7 +799,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 }
 
 .hero__hat--tip {
-  transform: rotate(-30deg) translate(-50px, -30px);
+  transform: rotate(-30deg) translate(-70px, -30px);
 }
 
 .hero__description {
