@@ -968,7 +968,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 .experience__icon--sass {
   background-image: url("../img/exp/exp_sass.svg");
 }
-.experience__icon--jquery {
+.experience__icon--typeScript {
   background-image: url("../img/exp/exp_typescript.svg");
 }
 .experience__icon--wordpress {
@@ -977,21 +977,21 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 .experience__icon--git {
   background-image: url("../img/exp/exp_git.svg");
 }
-.experience__icon--photoshop {
+.experience__icon--react {
   background-image: url("../img/exp/exp_react.svg");
 }
-.experience__icon--illustrator {
+.experience__icon--node {
   background-image: url("../img/exp/exp_node.svg");
 }
-.experience__icon--fireworks {
+.experience__icon--next {
   background-image: url("../img/exp/exp_next.svg");
 }
-.experience__icon--bootstrap {
+.experience__icon--mongo {
   background-image: url("../img/exp/exp_mongodb.svg");
   padding: 0;
   border: 2px solid white;
 }
-.experience__icon--foundation {
+.experience__icon--firebase {
   background-image: url("../img/exp/exp_firebase.svg");
 }
 .experience__icon--python {
@@ -1009,6 +1009,11 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   color: rgba(255, 255, 255, 0.9);
   width: 200px;
   text-align: center;
+}
+
+.mongoDb {
+  filter: brightness(210%);
+  border: none;
 }
 
 /*------------------------------------*\
@@ -2849,6 +2854,31 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
     background-image: linear-gradient(to bottom right, #00223e, #ffa17f 960px);
     width: 100%;
     height: 100%;
+  }
+}
+@media (max-width: 425px) {
+  .hero__title-wrapper {
+    text-align: center;
+    margin-left: -10px;
+  }
+
+  .hero__title-large {
+    font-size: 50px;
+  }
+
+  .hero__photo-wrapper {
+    margin-top: 10px;
+  }
+
+  .experience__icon {
+    margin-top: 40px;
+  }
+  .experience__icon .experience__icon-description {
+    border-bottom: 1px solid #464545;
+  }
+
+  .experience__icons-wrapper:last-child {
+    margin-bottom: -15px;
   }
 }
 

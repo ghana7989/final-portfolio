@@ -97,7 +97,7 @@
 	&--sass {
 		background-image: url('../img/exp/exp_sass.svg');
 	}
-	&--jquery {
+	&--typeScript {
 		background-image: url('../img/exp/exp_typescript.svg');
 	}
 	&--wordpress {
@@ -106,21 +106,21 @@
 	&--git {
 		background-image: url('../img/exp/exp_git.svg');
 	}
-	&--photoshop {
+	&--react {
 		background-image: url('../img/exp/exp_react.svg');
 	}
-	&--illustrator {
+	&--node {
 		background-image: url('../img/exp/exp_node.svg');
 	}
-	&--fireworks {
+	&--next {
 		background-image: url('../img/exp/exp_next.svg');
 	}
-	&--bootstrap {
+	&--mongo {
 		background-image: url('../img/exp/exp_mongodb.svg');
 		padding: 0;
     border: 2px solid white;
   }
-	&--foundation {
+	&--firebase {
 		background-image: url('../img/exp/exp_firebase.svg');
 	}
 	&--python {
@@ -152,4 +152,8 @@
 	//	bottom: -15px;
 	//	left: 0;
 	//}
+}
+.mongoDb{
+  filter: brightness(210%);
+  border: none;
 }

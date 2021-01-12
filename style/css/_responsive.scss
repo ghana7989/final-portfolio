@@ -2,7 +2,6 @@
 	(max-width: 1300px)
 \*------------------------------------*/
 @media (max-width: 1300px) {
-
 	.experience__wrapper {
 		max-width: 960px;
 		padding-top: 100px;
@@ -42,7 +41,7 @@
 	}
 
 	.hero__title-large {
-		color: rgba(255,255,255,0.9);
+		color: rgba(255, 255, 255, 0.9);
 		font-weight: 700;
 		font-size: 80px;
 	}
@@ -103,11 +102,10 @@
 	.showcase__thumb {
 		margin-left: 45px;
 		width: 155px;
-	
+
 		&--first {
 			margin-left: 0;
 		}
-
 	}
 
 	.showcase__title {
@@ -158,16 +156,10 @@
 	}
 }
 
-
-
-
-
-
 /*------------------------------------*\
 	(max-width: 1050px)
 \*------------------------------------*/
 @media (max-width: 1050px) {
-
 	.maxwidth1050 {
 		display: block;
 	}
@@ -226,7 +218,7 @@
 
 	.hero__button,
 	.hero__scroll {
-		font-size: 19px
+		font-size: 19px;
 	}
 
 	.experience__wrapper {
@@ -284,7 +276,6 @@
 		&--first {
 			margin-left: 0;
 		}
-
 	}
 
 	.showcase__infos-wrapper {
@@ -305,16 +296,10 @@
 	}
 }
 
-
-
-
-
-
 /*------------------------------------*\
 	(max-width: 960px)
 \*------------------------------------*/
 @media (max-width: 960px) {
-
 	.features__element {
 		display: block;
 		width: 100%;
@@ -336,16 +321,10 @@
 	}
 }
 
-
-
-
-
-
 /*------------------------------------*\
 	(max-width: 940px)
 \*------------------------------------*/
 @media (max-width: 940px) {
-
 	.hero__title-large {
 		font-size: 68px;
 	}
@@ -360,16 +339,10 @@
 	}
 }
 
-
-
-
-
-
 /*------------------------------------*\
 	(max-width: 890px)
 \*------------------------------------*/
 @media (max-width: 890px) {
-
 	.hero__title-large {
 		font-size: 65px;
 	}
@@ -385,7 +358,7 @@
 
 	.hero__button,
 	.hero__scroll {
-		font-size: 18px
+		font-size: 18px;
 	}
 
 	.hero__scroll {
@@ -408,16 +381,10 @@
 	}
 }
 
-
-
-
-
-
 /*------------------------------------*\
 	(max-width: 840px)
 \*------------------------------------*/
 @media (max-width: 840px) {
-
 	.hero__title-wrapper {
 		text-align: center;
 		width: 100%;
@@ -436,7 +403,7 @@
 		margin-top: 80px;
 		float: left;
 		width: 100%;
-		display: block
+		display: block;
 	}
 
 	.hero__photo {
@@ -446,16 +413,10 @@
 	}
 }
 
-
-
-
-
-
 /*------------------------------------*\
 	(max-width: 860px)
 \*------------------------------------*/
 @media (max-width: 860px) {
-
 	.experience__icon {
 		width: 33%;
 	}
@@ -463,7 +424,7 @@
 	.showcase__thumb {
 		margin-left: 2.3%;
 		width: 18%;
-		
+
 		&--first {
 			margin-left: 0;
 		}
@@ -472,7 +433,7 @@
 	.showcase__thumbnails-wrapper {
 		margin-bottom: 2.3%;
 	}
-	
+
 	.rslides_tabs {
 		width: 100%;
 		bottom: -35px;
@@ -536,16 +497,10 @@
 	}
 }
 
-
-
-
-
-
 /*------------------------------------*\
 	(max-width: 720px)
 \*------------------------------------*/
 @media (max-width: 720px) {
-
 	.footer__copyright {
 		float: left;
 		margin-top: 10px;
@@ -598,16 +553,10 @@
 	}
 }
 
-
-
-
-
-
 /*------------------------------------*\
 	(max-width: 620px)
 \*------------------------------------*/
 @media (max-width: 620px) {
-
 	.hero__title-large {
 		font-size: 65px;
 	}
@@ -650,16 +599,10 @@
 	}
 }
 
-
-
-
-
-
 /*------------------------------------*\
 	(max-width: 500px)
 \*------------------------------------*/
 @media (max-width: 500px) {
-
 	.experience__icons-wrapper {
 		padding-left: 5%;
 		padding-right: 5%;
@@ -682,34 +625,20 @@
 	}
 }
 
-
-
-
-
-
 /*------------------------------------*\
 	(max-width: 400px)
 \*------------------------------------*/
 @media (max-width: 400px) {
-
 	.hero__photo {
 		width: 200px;
 		height: 200px;
 	}
-
 }
-
-
-
-
-
-
 
 /*------------------------------------*\
 	(max-width: 400px)
 \*------------------------------------*/
 @media (max-width: 400px) {
-
 	.features__title {
 		font-size: 20px;
 	}
@@ -719,18 +648,6 @@
 	}
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*------------------------------------*\
 	HEIGHTS for (min-width: 1050px)
 \*------------------------------------*/
@@ -738,7 +655,6 @@
 	(max-height: 850px)
 \*------------------------------------*/
 @media (min-width: 1050px) and (max-height: 850px) {
-
 	.hero__title-wrapper {
 		margin-top: 100px;
 		float: left;
@@ -764,18 +680,10 @@
 	}
 }
 
-
-
-
-
-
-
-
 /*------------------------------------*\
 	(max-height: 800px)
 \*------------------------------------*/
 @media (min-width: 1050px) and (max-height: 800px) {
-
 	.hero__title-wrapper {
 		margin-top: 90px;
 		float: left;
@@ -801,17 +709,10 @@
 	}
 }
 
-
-
-
-
-
-
 /*------------------------------------*\
 	(max-height: 750px)
 \*------------------------------------*/
 @media (min-width: 1050px) and (max-height: 750px) {
-
 	.hero__title-wrapper {
 		margin-top: 70px;
 		float: left;
@@ -837,17 +738,10 @@
 	}
 }
 
-
-
-
-
-
-
 /*------------------------------------*\
 	(max-height: 700px)
 \*------------------------------------*/
 @media (min-width: 1050px) and (max-height: 700px) {
-
 	.hero__title-wrapper {
 		margin-top: 60px;
 		float: left;
@@ -873,17 +767,10 @@
 	}
 }
 
-
-
-
-
-
-
 /*------------------------------------*\
 	(max-height: 650px)
 \*------------------------------------*/
 @media (min-width: 1050px) and (max-height: 650px) {
-
 	.hero__title-wrapper {
 		margin-top: 60px;
 		float: left;
@@ -918,21 +805,14 @@
 
 	.hero__button,
 	.hero__scroll {
-		font-size: 19px
+		font-size: 19px;
 	}
 }
-
-
-
-
-
-
 
 /*------------------------------------*\
 	(max-height: 600px)
 \*------------------------------------*/
 @media (min-width: 1050px) and (max-height: 600px) {
-
 	.hero__title-wrapper {
 		margin-top: 40px;
 		float: left;
@@ -958,17 +838,10 @@
 	}
 }
 
-
-
-
-
-
-
 /*------------------------------------*\
 	(max-height: 550px)
 \*------------------------------------*/
 @media (min-width: 1050px) and (max-height: 550px) {
-
 	.hero__title-wrapper {
 		margin-top: 30px;
 		float: left;
@@ -1003,20 +876,9 @@
 
 	.hero__button,
 	.hero__scroll {
-		font-size: 17px
+		font-size: 17px;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /*------------------------------------*\
 	HEIGHTS for (min-width: 1300px)
@@ -1025,13 +887,12 @@
 	(max-height: 900px)
 \*------------------------------------*/
 @media (min-width: 1300px) and (max-height: 900px) {
-
 	.hero__title-wrapper {
 		margin-top: 120px;
 	}
 
 	.hero__title-large {
-		color: rgba(255,255,255,0.9);
+		color: rgba(255, 255, 255, 0.9);
 		font-weight: 700;
 		font-size: 100px;
 	}
@@ -1071,16 +932,10 @@
 	}
 }
 
-
-
-
-
-
 /*------------------------------------*\
 	(max-height: 800px)
 \*------------------------------------*/
 @media (min-width: 1300px) and (max-height: 800px) {
-
 	.hero__title-wrapper {
 		margin-top: 80px;
 	}
@@ -1096,19 +951,12 @@
 	.hero__call-to-action {
 		padding-top: 50px;
 	}
-
 }
-
-
-
-
-
 
 /*------------------------------------*\
 	(max-height: 750px)
 \*------------------------------------*/
 @media (min-width: 1300px) and (max-height: 750px) {
-
 	.hero__title-wrapper {
 		margin-left: 30px;
 		float: left;
@@ -1148,16 +996,10 @@
 	}
 }
 
-
-
-
-
-
 /*------------------------------------*\
 	(max-height: 700px)
 \*------------------------------------*/
 @media (min-width: 1300px) and (max-height: 700px) {
-
 	.hero__title-wrapper {
 		margin-top: 65px;
 	}
@@ -1175,16 +1017,10 @@
 	}
 }
 
-
-
-
-
-
 /*------------------------------------*\
 	(max-height: 700px)
 \*------------------------------------*/
 @media (min-width: 1300px) and (max-height: 600px) {
-
 	.hero__title-wrapper {
 		margin-top: 50px;
 	}
@@ -1201,18 +1037,6 @@
 		padding-top: 30px;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*------------------------------------*\
 	Animated gradient window
@@ -1312,8 +1136,33 @@
 @media (max-width: 960px) {
 	.hero__gradient {
 		animation-name: none;
-		background-image: linear-gradient(to bottom right, rgba(#00223E, 1), rgba(#FFA17F, 1) 960px);
+		background-image: linear-gradient(
+			to bottom right,
+			rgba(#00223e, 1),
+			rgba(#ffa17f, 1) 960px
+		);
 		width: 100%;
 		height: 100%;
+	}
+}
+@media (max-width: 425px) {
+	.hero__title-wrapper {
+    text-align: center;
+    margin-left: -10px;
+	}
+	.hero__title-large {
+		font-size: 50px;
+	}
+	.hero__photo-wrapper {
+		margin-top: 10px;
+	}
+	.experience__icon {
+		margin-top: 40px;
+		.experience__icon-description {
+			border-bottom: 1px solid rgb(70, 69, 69);
+		}
+	}
+	.experience__icons-wrapper:last-child {
+		margin-bottom: -15px;
 	}
 }
